@@ -1,0 +1,439 @@
+<header>
+    <div class="container cabecalho">
+
+            <!-- <div id="menu-sanduiche">
+                <a routerLink="#" onclick="mostrarMenu()">
+                    <img src="img/bars.svg" alt="bars" class="botao-sanduiche">
+                </a>
+            </div> -->
+            <div id="menu-sanduiche">
+                <a routerLink="#">
+                    <img src="assets/img/bars.svg" alt="bars" class="botao-sanduiche">
+                </a>
+            </div>
+            
+            <div class="logo-buscador">
+                <a routerLink="index.html" class="logo">
+                    <img src="assets/img/game.svg" alt="Iconelogo" class="icone-logo">
+                    <img src="assets/img/GAMEMANIA4-SF 1.svg" alt="Logo" class="nome-logo">
+                </a>
+                
+                <form class="form-buscador"> 
+                    <input id="campo-busca-1" class="buscador" type="search" minlength="3" placeholder="O que você está procurando?">
+                    <button style="display: none;" onclick="entradaBusca('campo-busca-1')">Continuar</button>
+                </form>
+            </div>
+
+            <div class="login-carrinho">
+                <a routerLink="/login">
+                    <img src="assets/img/user.svg" alt="usuario" class="icone-login">
+                    <p class="texto-login">Entre ou <br> cadastre-se</p>        
+                </a>
+                <img src="assets/img/carrinho.svg" alt="carrinho" class="carrinho">
+            </div>
+    </div>
+
+    <div class="container grid-menu">
+        <nav id="menu" class="menu">
+            <a routerLink="#" >Usados</a>
+            <a routerLink="#" >Informática</a>
+            <a routerLink="#" >Nintendo</a>
+            <a routerLink="#" >Playstation</a>
+            <a routerLink="#" >Xbox</a>
+        </nav>
+        
+        <form class="form-buscador"> 
+            <input id="campo-busca-2" class="buscador" type="search" minlength="3" placeholder="O que você está procurando?">
+            <button style="display: none;" onclick="entradaBusca('campo-busca-2')">Continuar</button>
+        </form>
+    </div>
+        
+
+   
+
+</header>
+
+<main>
+    <a routerLink="#" style="text-decoration:none;">
+        <section id="carrossel-banner" class="banner">
+            <div class="container grid-banner">
+
+               
+                <div id="imagem-banner" class="imagem-banner">
+                    <img src="assets/img/shopping 1.svg" alt="img-godofwar" class="imagem-godofwar">
+                    <img src="assets/img/shopping 2.svg" alt="img-horizon" class="imagem-horizon">
+                    <img src="assets/img/shopping 3.svg" alt="img-fifa" class="imagem-fifa">
+                </div>
+
+                <div id="mascara"class="mascara">
+                    
+                </div>
+                
+                <div id="destaque-banner" class="destaque-banner">
+                    <h1 class="texto-destaque">Jogos PS5</h1>
+                    <div id="#promocao" class="promocao">
+                        <p class="texto-promocao">Leve 2 e pague 1</p>
+                    </div>      
+                    <div class="botao-promocao">
+                        <p>Aproveite ></p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+            
+    </a>
+    <section class="informacoes">
+        <div class="container grid-informacoes">
+            <div class="icone-texto-informacoes">
+                <img src="assets/img/entrega.svg" alt="caminhao entrega" class="icone-informacoes">
+                <div>
+                    <h2 class="titulo-informacoes">Entregamos</h2>
+                    <p class="texto-informacoes">em todo o Brasil</p>
+                </div>
+            </div>
+
+            <div class="icone-texto-informacoes">
+                <img src="assets/img/parcelamento.svg" alt="cartao" class="icone-informacoes">
+                <div>
+                    <h2 class="titulo-informacoes">Parcelamento</h2>
+                    <p class="texto-informacoes">em até 12x sem juros</p>
+                </div>
+            </div>
+
+            <div class="icone-texto-informacoes">
+                <img src="assets/img/seguranca.svg" alt="cadeado" class="icone-informacoes">
+                <div>
+                    <h2 class="titulo-informacoes">Compre</h2>
+                    <p class="texto-informacoes">com segurança</p>
+                </div>
+            </div>
+
+            <div class="icone-texto-informacoes">
+                <img src="assets/img/atendimento.svg" alt="fone" class="icone-informacoes">
+                <div>
+                    <h2 class="titulo-informacoes">Atendimento</h2>
+                    <p class="texto-informacoes">online</p>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section class="destaques">
+        <div class="container grid-destaques">
+            <div class="titulo-destaque">
+                <h2>Destaques</h2>
+            </div>
+            <div class="imagens-destaque">
+                <div class="linha-destaque">
+                    <a routerLink="#" class="link-destaque">
+                        <div class="card-destaque">
+                            <img src="assets/img/card 1.svg" alt="imagem card 1" class="imagem-card">
+                            <h2 class="titulo-card">Console Playstation 5 825gb com Leitor de Disco cfi - 1114A</h2>
+                            <p class="preco-card">R$ 4.499,99</p>
+                            <button class="botao-card botao-login">Adicionar</button>
+                        </div>
+                    </a>
+                    <a routerLink="#" class="link-destaque" >
+                        <div class="card-destaque">
+                            <img src="assets/img/card 2.svg" alt="imagem card 2" class="imagem-card">
+                            <h2 class="titulo-card">PC Gamer Intel® Core™ i5, 8GB, SSD 256GB | GT Gamer</h2>
+                            <p class="preco-card">R$ 1.804,90</p>
+                            <button class="botao-card botao-login">Adicionar</button>
+                        </div>
+                    </a>
+                    <a routerLink="#" class="link-destaque" >
+                        <div class="card-destaque">
+                            <img src="assets/img/card 3.svg" alt="imagem card 3" class="imagem-card">
+                            <h2 class="titulo-card">Sony Playstation 4 500Gb Standard Cor Preto Onyx  Refurb</h2>
+                            <p class="preco-card">R$ 2.960,35</p>
+                            <button class="botao-card botao-login">Adicionar</button>
+                        </div>
+                    </a>
+                </div>
+                <div class="linha-destaque">
+                    <a routerLink="#" class="link-destaque" >
+                        <div class="card-destaque">
+                            <img src="assets/img/card 4.svg" alt="imagem card 4" class="imagem-card">
+                            <h2 class="titulo-card">Kit Gamer 5x1 Kross Elegance</h2>
+                            <p class="preco-card">R$ 214,00</p>
+                            <button class="botao-card botao-login">Adicionar</button>
+                        </div>
+                    </a>
+                    <a routerLink="#" class="link-destaque">
+                        <div class="card-destaque">
+                            <img src="assets/img/card 5.svg" alt="imagem card 5" class="imagem-card">
+                            <h2 class="titulo-card">Video Game Xbox One S 1tb Standard Cor Branco Console</h2>
+                            <p class="preco-card">R$ 2.499,99</p>
+                            <button class="botao-card botao-login">Adicionar</button>
+                        </div>
+                    </a>
+                    <a routerLink="#" class="link-destaque">
+                        <div class="card-destaque">
+                            <img src="assets/img/card 6.svg" alt="imagem card 6" class="imagem-card">
+                            <h2 class="titulo-card">Cadeira Gamer Azul - Prizi – Jx-1039b</h2>
+                            <p class="preco-card">R$ 461,91</p>
+                            <button class="botao-card botao-login">Adicionar</button>
+                        </div>  
+                    </a>
+                </div>
+
+
+                
+                
+                
+            </div>
+
+            <div class="carrossel-destaque">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <a routerLink="#" class="link-destaque">
+                            <div class="card-destaque">
+                                <img src="assets/img/card 1.svg" alt="imagem card 1" class="imagem-card">
+                                <h2 class="titulo-card">Console Playstation 5 825gb com Leitor de Disco cfi - 1114A</h2>
+                                <p class="preco-card">R$ 4.499,99</p>
+                                <button class="botao-card botao-login">Adicionar</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a routerLink="#" class="link-destaque">
+                            <div class="card-destaque">
+                                <img src="assets/img/card 2.svg" alt="imagem card 2" class="imagem-card">
+                                <h2 class="titulo-card">PC Gamer Intel® Core™ i5, 8GB, SSD 256GB | GT Gamer</h2>
+                                <p class="preco-card">R$ 1.804,90</p>
+                                <button class="botao-card botao-login">Adicionar</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a routerLink="#" class="link-destaque">
+                            <div class="card-destaque">
+                                <img src="assets/img/card 3.svg" alt="imagem card 3" class="imagem-card">
+                                <h2 class="titulo-card">Sony Playstation 4 500Gb Standard Cor Preto Onyx  Refurb</h2>
+                                <p class="preco-card">R$ 2.960,35</p>
+                                <button class="botao-card botao-login">Adicionar</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a routerLink="#" class="link-destaque">
+                            <div class="card-destaque">
+                                <img src="assets/img/card 4.svg" alt="imagem card 4" class="imagem-card">
+                                <h2 class="titulo-card">Kit Gamer 5x1 Kross Elegance</h2>
+                                <p class="preco-card">R$ 214,00</p>
+                                <button class="botao-card botao-login">Adicionar</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a routerLink="#" class="link-destaque">
+                            <div class="card-destaque">
+                                <img src="assets/img/card 5.svg" alt="imagem card 5" class="imagem-card">
+                                <h2 class="titulo-card">Video Game Xbox One S 1tb Standard Cor Branco Console</h2>
+                                <p class="preco-card">R$ 2.499,99</p>
+                                <button class="botao-card botao-login">Adicionar</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a routerLink="#" class="link-destaque">
+                            <div class="card-destaque">
+                                <img src="assets/img/card 6.svg" alt="imagem card 6" class="imagem-card">
+                                <h2 class="titulo-card">Cadeira Gamer Azul - Prizi – Jx-1039b</h2>
+                                <p class="preco-card">R$ 461,91</p>
+                                <button class="botao-card botao-login">Adicionar</button>
+                            </div> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        
+    </section>
+    
+    <section class="slogan">
+        <div class="mascara-slogan">
+            <div class="escurece-mascara" >
+                <div class="container grid-slogan">
+                    <h1 class="texto-slogan">Compre games com quem entende de games</h1>                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="informacoes-menor-768">
+        <div class="container grid-informacoes">
+            <div class="icone-texto-informacoes">
+                <img src="assets/img/entrega.svg" alt="caminhao entrega" class="icone-informacoes">
+                <div>
+                    <h2 class="titulo-informacoes">Entregamos</h2>
+                    <p class="texto-informacoes">em todo o Brasil</p>
+                </div>
+            </div>
+
+            <div class="icone-texto-informacoes">
+                <img src="assets/img/parcelamento.svg" alt="cartao" class="icone-informacoes">
+                <div>
+                    <h2 class="titulo-informacoes">Parcelamento</h2>
+                    <p class="texto-informacoes">em até 12x sem juros</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="informacoes-menor-768">
+        <div class="container grid-informacoes">
+            <div class="icone-texto-informacoes">
+                <img src="assets/img/seguranca.svg" alt="cadeado" class="icone-informacoes">
+                <div>
+                    <h2 class="titulo-informacoes">Compre</h2>
+                    <p class="texto-informacoes">com segurança</p>
+                </div>
+            </div>
+
+            <div class="icone-texto-informacoes">
+                <img src="assets/img/atendimento.svg" alt="fone" class="icone-informacoes">
+                <div>
+                    <h2 class="titulo-informacoes">Atendimento</h2>
+                    <p class="texto-informacoes">online</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</main>
+
+<footer>
+    <div class="container grid-rodape" >
+        <div class="titulo-informacoes-rodape">
+            <h2 class="titulo-rodape">Institucional</h2>
+            <nav class="informacoes-rodape">
+                <a routerLink="#" class="link-rodape">Fale Conosco</a>
+                <a routerLink="#" class="link-rodape">Política de Privacidade</a>
+                <a routerLink="#" class="link-rodape">Politica de Troca, 
+                            <br>Devolução e Reembolso</a>
+                <a routerLink="#" class="link-rodape">Sobre nós</a>
+            </nav>
+        </div>
+
+        <div class="titulo-informacoes-rodape">
+            <h2 class="titulo-rodape">Atendimento</h2>
+            <nav class="atendimento-rodape">
+                <div class="icone-link-rodape">
+                    <img src="assets/img/chamada.svg" alt="telefone" class="icone-rodape">
+                    <a routerLink="#" class="link-rodape">(47) 99538-4194</a>
+                </div>
+                <div class="icone-link-rodape">
+                    <img src="assets/img/whatsapp.svg" alt="whatsapp" class="icone-rodape">
+                    <a routerLink="#" class="link-rodape">(47) 99538-4194</a>
+                </div>
+                <div class="icone-link-rodape" style="width: 105%;">
+                    <img src="assets/img/mensagem.svg" alt="mensagem" class="icone-rodape">
+                    <a routerLink="#" class="link-rodape">gamemania@shop.com.br</a>                     
+                </div>
+            </nav>
+        </div>
+
+        <div class="titulo-informacoes-rodape">
+            <div>
+                <h2 class="titulo-rodape">Acompanhe nas redes</h2>
+                <div class="redes-rodape">
+                    <a routerLink="#">
+                        <img src="assets/img/facebook.svg" alt="facebook" class="icone-rede-rodape">
+                    </a>
+                    <a routerLink="#">
+                        <img src="assets/img/instagram.svg" alt="instagram" class="icone-rede-rodape">
+                    </a>
+                </div>
+            </div>
+            <div>
+                <h2 class="titulo-rodape">Pague com</h2>
+                <div class="pagamento-rodape">
+                    <img src="assets/img/visa.svg" alt="cartao visa" class="icone-pagamento">
+                    <img src="assets/img/martercard.svg" alt="cartao mastercard" class="icone-pagamento">
+                    <img src="assets/img/hipercard.svg" alt="cartao hipercard" class="icone-pagamento">
+                    <img src="assets/img/boleto.svg" alt="boleto"class="icone-pagamento">
+                </div>
+
+            </div>
+
+             
+        </div>
+
+    </div>
+
+    <div class="btn-group-vertical container">
+        <div class="dropdown">
+            <button class="btn-secondary dropdown-toggle botao-rodape" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Institucional
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item link-botao-rodape" routerLink="#">Fale Conosco</a></li>
+              <li><a class="dropdown-item link-botao-rodape" routerLink="#">Política de Privacidade</a></li>
+              <li><a class="dropdown-item link-botao-rodape" routerLink="#">Politica de Troca, 
+                <br>Devolução e Reembolso</a></li>
+              <li><a class="dropdown-item link-botao-rodape" routerLink="#">Sobre nós</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn-secondary dropdown-toggle botao-rodape" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Atendimento
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item link-botao-rodape" routerLink="#">
+                    <img src="assets/img/chamada.svg" alt="telefone" class="icone-rodape">
+                    (47) 99538-4194</a>
+              </li>
+              <li><a class="dropdown-item link-botao-rodape" routerLink="#">
+                <img src="assets/img/whatsapp.svg" alt="whatsapp" class="icone-rodape">
+                (47) 99538-4194</a>
+              </li>
+              <li><a class="dropdown-item link-botao-rodape" routerLink="#">
+                <img src="assets/img/mensagem.svg" alt="mensagem" class="icone-rodape">
+                gamemania@shop.com.br</a>
+              </li>
+            </ul>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn-secondary dropdown-toggle botao-rodape" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Pague com
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li class="dropdown-item">
+                <div class="pagamento-rodape" style="justify-content: flex-start;">
+                    <img src="assets/img/visa.svg" alt="cartao visa" class="icone-pagamento">
+                    <img src="assets/img/martercard.svg" alt="cartao mastercard" class="icone-pagamento">
+                    <img src="assets/img/hipercard.svg" alt="cartao hipercard" class="icone-pagamento">
+                    <img src="assets/img/boleto.svg" alt="boleto"class="icone-pagamento">
+                </div>
+              </li>
+              <li class="dropdown-item link-botao-rodape"> </li>
+              
+            </ul>
+        </div>
+
+        <div class="titulo-informacoes-rodape">
+            <div>
+                <h2 class="titulo-rodape">Acompanhe nas redes</h2>
+                <div class="redes-rodape">
+                    <a routerLink="#">
+                        <img src="assets/img/facebook.svg" alt="facebook" class="icone-rede-rodape">
+                    </a>
+                    <a routerLink="#">
+                        <img src="assets/img/instagram.svg" alt="instagram" class="icone-rede-rodape">
+                    </a>
+                </div>
+            </div>
+
+             
+        </div>
+   
+              
+    </div>
+    
+</footer>
