@@ -1,0 +1,238 @@
+/* Cabeçalho */
+
+header {
+    height: 120px;
+    background-image: linear-gradient(#2596BE 66.67%,  #041014 33.33%);
+}
+
+
+
+.cabecalho {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 66.67%;
+   
+}
+
+.logo {
+    width: 41.18%;
+    display: flex;
+    align-items: center;
+}
+
+.form-buscador {
+    width: 58.82%;
+}
+
+.buscador {
+    /* width: 58.82%; */
+    width: 100%;
+    height: 40px;
+    border-radius: 5cm;
+    border: 0;
+    padding-left: 20px;
+    background-image: url(/assets/img/lupa.svg);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 97%;
+}
+
+.icone-logo {
+    width: 21.71%;
+}
+
+.nome-logo {
+    width: 78.29%;
+}
+
+.buscador::placeholder {
+    font-size: 15px;
+}
+
+.buscador:focus{
+    outline: none;
+    
+}
+
+.logo-buscador {
+    display: flex;
+    width: 77%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-carrinho {
+    display: flex;
+    width: 17.55%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-carrinho a{
+    display: flex;
+    justify-content: space-between;
+    width: 110px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.icone-login {
+    width: 30px;
+    height: 30px;
+}
+
+.texto-login {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+    margin-bottom: 0;
+    
+}
+
+
+.carrinho {
+    width: 30px;
+    height: 30px;
+    
+}
+
+
+/* menu */
+
+.grid-menu {
+    height: 33.33%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+
+
+.botao-sanduiche {
+    width: 28px;
+    height: 28px;
+}
+
+.botao-menu hr {
+    width: 20px; 
+    border-top: 3px solid white; 
+    margin: 0;
+    opacity: 1;
+}
+
+.link-botao{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+
+
+}
+
+.link-botao:hover{
+    background-color: #041014;
+    color: white;
+}
+
+header .dropdown-menu {
+    padding: 0;
+    width: 200px;
+}
+
+
+/* Responsividade */
+
+@media screen and (max-width:1100px) {
+    .texto-login { display: none;}
+    .login-carrinho { width: 12%; } 
+}
+
+@media screen and (max-width:992px) {
+    .logo-buscador {width: 85%;}
+    .buscador::placeholder {font-size: 13px;}
+}
+
+@media screen and (max-width: 768px) {
+    .form-buscador { display: none; }
+    .grid-menu .form-buscador {width: 100%; display: flex;}
+    .cabecalho {position: relative;}
+    .menu {
+        display: none;
+        flex-direction: column;
+        background-color: #041014;
+        position: absolute; 
+        top: 65px;
+        right: 62%;
+        align-items: center;
+        width: 180px;
+        height: 180px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        z-index: 4;
+    }
+    .menu-ativo {display: flex;}
+    .menu a {font-size: 12px;}
+    .menu a:hover {color: grey}
+    header {background-image: linear-gradient(#2596BE 66.67%,  white 33.33%); height: 100px;}
+    .grid-menu .buscador {display: flex; justify-content: center; border-radius: 0; width: 100%; height: 100%; background-size: 17px 17px;}
+    .grid-menu .buscador::placeholder {font-size: 14px;}
+    .login-carrinho { width: 15%; }
+    .logo { width: 100%;}
+    .logo-buscador {justify-content: center; width: 55%;}
+    .icone-login {width: 22px;}
+    .carrinho {width: 27px;}
+    
+}
+
+@media screen and (min-width: 768px) {
+    .grid-menu .form-buscador {display:none;}
+    .menu {display: flex;}
+    .cabecalho #menu-sanduiche {display: none;}
+ 
+}
+
+
+@media screen and (max-width: 576px) {
+    .menu {height: 180px; width: 180px; right: 64%;}
+    .menu a {font-size: 12px;}
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .menu {right: 60%; width: 160px;}
+    .icone-login {width: 20px;}
+    .carrinho {width: 25px;}
+    .login-carrinho { width: 18%;}
+   
+}
+
+@media screen and (max-width: 435px) {
+    .menu {right: 55%;}
+    
+}
+
+@media screen and (max-width: 400px) {
+    .menu {width: 150px; right: 52%;}
+
+}
